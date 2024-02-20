@@ -1,14 +1,9 @@
 import React from 'react'
-import Navbar from "../Layout/Navbar"
-import Main from '../Layout/Main'
-import Footer from "../Layout/Footer"
-
+import AboutMe from "../Components/AboutMe"
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Main/>
-      <Footer/>
+      <AboutMe/>
     </div>
   )
 }

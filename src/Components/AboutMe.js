@@ -32,7 +32,7 @@ export default function AboutMe(){
         </p>
         <div className="flex w-full items-center md:flex-row md:justify-start md:space-x-5 md:space-y-0">
           <a
-            href="#projects"
+            href="/projects"
             className="border border-gray-200 text-zinc-900 px-6 py-2 rounded-full ms-3"
           >
             Projects
