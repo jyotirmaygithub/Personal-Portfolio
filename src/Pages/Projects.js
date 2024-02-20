@@ -1,40 +1,44 @@
-import React from 'react';
-import cockTail from '../Assets/images/Cocktail.png';
-import exploreHub from '../Assets/images/ExploreHub.png';
-import wallpaper from '../Assets/images/Wallpaper.png';
+import React from "react";
+import cockTail from "../Assets/images/Cocktail.png";
+import exploreHub from "../Assets/images/ExploreHub.png";
+import wallpaper from "../Assets/images/Wallpaper.png";
+import Footer from "../Layout/Footer"
 
-export default function Projects(){
+export default function Projects() {
   const works = [
     {
-      title: 'CockTail-Lover',
-      description: 
-      'Explore a variety of cocktails with our site! Find recipes, ingredients, and step-by-step guides for the perfect mix. Cheers to your next favorite drink! 🍹. [React, Tailwind CSS, Material UI]',
-      code: 'https://github.com/jyotirmaygithub/For-cocktail-lover',
-      live: 'https://cocktail-you-love.netlify.app',
-      stack: 'React, Tailwind CSS',
+      title: "CockTail-Lover",
+      description:
+        "Explore a variety of cocktails with our site! Find recipes, ingredients, and step-by-step guides for the perfect mix. Cheers to your next favorite drink! 🍹. [React, Tailwind CSS, Material UI]",
+      code: "https://github.com/jyotirmaygithub/For-cocktail-lover",
+      live: "https://cocktail-you-love.netlify.app",
+      stack: "React, Tailwind CSS",
       thumbnail: cockTail,
     },
     {
-      title: 'Explore-Hub',
-      description: 'Explore effortlessly with our Google-like search features! Simplify and speed up your exploration. Search smarter, explore faster! 🚀  made using HTML,Tailwind CSS ,React',
-      code: 'https://github.com/jyotirmaygithub/Explore-Hub',
-      live: 'https://explorehub-to-visit.netlify.app',
-      stack: 'HTMl, CSS, JavaScript',
+      title: "Explore-Hub",
+      description:
+        "Explore effortlessly with our Google-like search features! Simplify and speed up your exploration. Search smarter, explore faster! 🚀  made using HTML,Tailwind CSS ,React",
+      code: "https://github.com/jyotirmaygithub/Explore-Hub",
+      live: "https://explorehub-to-visit.netlify.app",
+      stack: "HTMl, CSS, JavaScript",
       thumbnail: exploreHub,
     },
     {
-      title: 'Pixel-Blend',
-      description: 'Discover and download trending wallpapers for your devices instantly! Elevate your screens with the latest in style. 📱💻🌟 design using React and Tailwind CSS',
-      code: 'https://github.com/jyotirmaygithub/PixelBlend',
-      live: 'https://pixelblend-wallpaper.netlify.app',
-      stack: 'HTML, Bootstrap 5',
+      title: "Pixel-Blend",
+      description:
+        "Discover and download trending wallpapers for your devices instantly! Elevate your screens with the latest in style. 📱💻🌟 design using React and Tailwind CSS",
+      code: "https://github.com/jyotirmaygithub/PixelBlend",
+      live: "https://pixelblend-wallpaper.netlify.app",
+      stack: "HTML, Bootstrap 5",
       thumbnail: wallpaper,
     },
   ];
   return (
+    <>
     <div
       id="projects"
-      className="flex flex-col items-start mt-20 space-y-5 md:mt-32 md:space-y-7 md:px-5 lg:mt-32"
+      className="flex flex-col items-start mt-14 mx-5 space-y-5  "
     >
       <h1 className="text-3xl font-bold">Projects</h1>
       <div className="grid gap-12 mt-12 md:grid-cols-3">
@@ -61,7 +65,7 @@ export default function Projects(){
                   rel="noreferrer"
                   className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-150 border rounded-lg hover:bg-zinc-900 hover:text-white"
                 >
-                  Live{' '}
+                  Live{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="inline-block w-4 h-4 icon icon-tabler icon-tabler-devices"
@@ -86,7 +90,7 @@ export default function Projects(){
                   rel="noreferrer"
                   className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-150 border rounded-lg ms-3 hover:bg-zinc-900 hover:text-white"
                 >
-                  Source Code{' '}
+                  Source Code{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="inline-block w-4 h-4 icon icon-tabler icon-tabler-code"
@@ -111,6 +115,9 @@ export default function Projects(){
         ))}
       </div>
     </div>
+    <div>
+      <Footer/>
+    </div>
+    </>
   );
-};
-
+}

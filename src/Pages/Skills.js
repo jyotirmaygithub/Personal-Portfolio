@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Layout/Footer';
 
 const Skills = () => {
   const skills = [
@@ -24,7 +25,8 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-start m-5 mt-20 space-y-5 md:mt-32 md:space-y-7 md:px-5 lg:mt-32">
+    <>
+    <div className="flex flex-col items-start mx-11 mt-20 space-y-5">
       <h1 className="text-3xl font-bold">Skills</h1>
       <div className="md:grid md:grid-cols-3 md:gap-4">
         {skills.map((skill, index) => (
@@ -49,6 +51,10 @@ const Skills = () => {
         ))}
       </div>
     </div>
+    <div className='fixed bottom-0 w-full'>
+      <Footer/>
+    </div>
+    </>
   );
 };
 

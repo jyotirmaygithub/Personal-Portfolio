@@ -15,7 +15,7 @@ export default function Header(){
           Jyotirmay Gupta
         </p>
         <div className="flex">
-          <a href="https://github.com/jyotirmaygithub?tab=repositories">
+          <a href="https://github.com/jyotirmaygithub?tab=repositories" className="hover:bg-gray-200 p-2 hover:rounded-full">
           <GitHubIcon  />          
           </a>
         </div>
