@@ -2,16 +2,26 @@ import React from "react";
 import cockTail from "../Assets/images/Cocktail.png";
 import exploreHub from "../Assets/images/ExploreHub.png";
 import wallpaper from "../Assets/images/Wallpaper.png";
+import noteVault  from "../Assets/images/note.png"
 import Footer from "../Layout/Footer"
 
 export default function Projects() {
   const works = [
     {
+      title: "Note-Vault",
+      description:
+        "Your Secure Space for Effortless Note-Taking and Quick Retrieval 📝. [React, Tailwind CSS, Material UI, MongoDB Atlas,Express js, Node js]",
+      code: "https://github.com/jyotirmaygithub/Task-Hub",
+      live: "https://note-vault-to-keep-notes.netlify.app",
+      stack: "React, Tailwind CSS",
+      thumbnail: noteVault,
+    },
+    {
       title: "CockTail-Lover",
       description:
         "Explore a variety of cocktails with our site! Find recipes, ingredients, and step-by-step guides for the perfect mix. Cheers to your next favorite drink! 🍹. [React, Tailwind CSS, Material UI]",
       code: "https://github.com/jyotirmaygithub/For-cocktail-lover",
-      live: "https://cocktail-you-love.netlify.app",
+      live: "https://for-cocktail-lover.netlify.app",
       stack: "React, Tailwind CSS",
       thumbnail: cockTail,
     },
@@ -20,7 +30,7 @@ export default function Projects() {
       description:
         "Explore effortlessly with our Google-like search features! Simplify and speed up your exploration. Search smarter, explore faster! 🚀  made using HTML,Tailwind CSS ,React",
       code: "https://github.com/jyotirmaygithub/Explore-Hub",
-      live: "https://explorehub-to-visit.netlify.app",
+      live: "https://react-explore-hub.netlify.app",
       stack: "HTMl, CSS, JavaScript",
       thumbnail: exploreHub,
     },
@@ -29,7 +39,7 @@ export default function Projects() {
       description:
         "Discover and download trending wallpapers for your devices instantly! Elevate your screens with the latest in style. 📱💻🌟 design using React and Tailwind CSS",
       code: "https://github.com/jyotirmaygithub/PixelBlend",
-      live: "https://pixelblend-wallpaper.netlify.app",
+      live: "https://wallpaper-studio.netlify.app",
       stack: "HTML, Bootstrap 5",
       thumbnail: wallpaper,
     },
@@ -38,7 +48,7 @@ export default function Projects() {
     <>
     <div
       id="projects"
-      className="flex flex-col items-start mt-14 mx-5 space-y-5  "
+      className="flex flex-col items-start mt-14 mx-5 space-y-5"
     >
       <h1 className="text-3xl font-bold">Projects</h1>
       <div className="grid gap-12 mt-12 md:grid-cols-3">
