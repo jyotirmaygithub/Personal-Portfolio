@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Layout/Footer";
 
 export default function AboutMe() {
   return (

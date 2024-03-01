@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Layout/Footer';
 
 const Skills = () => {
   const skills = [

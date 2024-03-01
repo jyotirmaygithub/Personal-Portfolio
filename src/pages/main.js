@@ -7,7 +7,7 @@ import Skills from "../utils/Skills";
 
 export default function main() {
   return (
-    <div>
+    <div className="space-y-28">
       <Navbar />
       <AboutMe />
       <Skills />
