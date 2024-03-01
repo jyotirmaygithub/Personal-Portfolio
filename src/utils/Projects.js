@@ -3,27 +3,26 @@ import cockTail from "../Assets/images/Cocktail.png";
 import exploreHub from "../Assets/images/ExploreHub.png";
 import wallpaper from "../Assets/images/Wallpaper.png";
 import noteVault  from "../Assets/images/note.png"
-import Footer from "../Layout/Footer"
 
 export default function Projects() {
   const works = [
     {
       title: "Note-Vault",
       description:
-        "Your Secure Space for Effortless Note-Taking and Quick Retrieval 📝. [React, Tailwind CSS, Material UI, MongoDB Atlas,Express js, Node js]",
+        "Your Secure Space for Effortless Note-Taking and Quick Retrieval 📝. [React, Tailwind CSS, Material UI, MongoDB Atlas, Express js, Node js]",
       code: "https://github.com/jyotirmaygithub/Task-Hub",
       live: "https://note-vault-to-keep-notes.netlify.app",
       stack: "React, Tailwind CSS",
       thumbnail: noteVault,
     },
     {
-      title: "CockTail-Lover",
+      title: "Pixel-Blend",
       description:
-        "Explore a variety of cocktails with our site! Find recipes, ingredients, and step-by-step guides for the perfect mix. Cheers to your next favorite drink! 🍹. [React, Tailwind CSS, Material UI]",
-      code: "https://github.com/jyotirmaygithub/For-cocktail-lover",
-      live: "https://for-cocktail-lover.netlify.app",
-      stack: "React, Tailwind CSS",
-      thumbnail: cockTail,
+        "Discover and download trending wallpapers for your devices instantly! Elevate your screens with the latest in style. 📱💻🌟 design using React and Tailwind CSS",
+      code: "https://github.com/jyotirmaygithub/PixelBlend",
+      live: "https://wallpaper-studio.netlify.app",
+      stack: "HTML, Bootstrap 5",
+      thumbnail: wallpaper,
     },
     {
       title: "Explore-Hub",
@@ -35,14 +34,14 @@ export default function Projects() {
       thumbnail: exploreHub,
     },
     {
-      title: "Pixel-Blend",
+      title: "CockTail-Lover",
       description:
-        "Discover and download trending wallpapers for your devices instantly! Elevate your screens with the latest in style. 📱💻🌟 design using React and Tailwind CSS",
-      code: "https://github.com/jyotirmaygithub/PixelBlend",
-      live: "https://wallpaper-studio.netlify.app",
-      stack: "HTML, Bootstrap 5",
-      thumbnail: wallpaper,
-    },
+        "Explore a variety of cocktails with our site! Find recipes, ingredients, and step-by-step guides for the perfect mix. Cheers to your next favorite drink! 🍹. [React, Tailwind CSS, Material UI]",
+      code: "https://github.com/jyotirmaygithub/For-cocktail-lover",
+      live: "https://for-cocktail-lover.netlify.app",
+      stack: "React, Tailwind CSS",
+      thumbnail: cockTail,
+    }
   ];
   return (
     <>
@@ -124,9 +123,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </div>
-    <div>
-      <Footer/>
     </div>
     </>
   );
