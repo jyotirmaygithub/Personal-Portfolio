@@ -11,7 +11,7 @@ export default function Projects() {
       description:
         "Your Secure Space for Effortless Note-Taking and Quick Retrieval 📝. [React, Tailwind CSS, Material UI, MongoDB Atlas, Express js, Node js]",
       code: "https://github.com/jyotirmaygithub/Task-Hub",
-      live: "https://note-vault-to-keep-notes.netlify.app",
+      live: "https://to-keep-notes-vault.netlify.app",
       stack: "React, Tailwind CSS",
       thumbnail: noteVault,
     },
