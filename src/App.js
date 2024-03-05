@@ -1,20 +1,11 @@
-import './App.css';
-import Home from "./Pages/Home"
-import Navbar from "./Layout/Navbar"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Skills from './Pages/Skills';
-import Projects from './Pages/Projects';
+import Main from "./pages/main";
 
 function App() {
   return (
     <>  
-    <Router>
-      <Routes>
-        <Route path="/" element={<><Navbar /><Home /></>}></Route>
-        <Route path="/skills" element={<><Navbar /><Skills /></>}></Route>
-        <Route path='/projects'  element={<><Navbar /><Projects /></>}/>
-      </Routes>
-    </Router>
+    <div className="overflow-hidden mx-auto max-w-5xl flex-col align-center justify-center p-5 xl:px-0 scroll-smooth">
+      <Main />
+    </div>
     </>
   );
 }

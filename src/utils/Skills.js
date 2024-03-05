@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Layout/Footer';
 
 const Skills = () => {
   const skills = [
@@ -50,9 +49,6 @@ const Skills = () => {
           </div>
         ))}
       </div>
-    </div>
-    <div className='fixed bottom-0 w-full'>
-      <Footer/>
     </div>
     </>
   );
